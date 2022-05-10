@@ -1,0 +1,100 @@
+/* Below animations are fore modal created using React-Modal */
+.ReactModal__Overlay {
+    transition: transform 300ms ease-in-out;
+    transition-delay: 100ms;
+    transform: scale(0);
+    /* transform: translateY(-150%); */
+}
+
+.ReactModal__Overlay--after-open{
+    transform: scale(1);
+    /* transform: translateY(0%); */
+}
+
+.ReactModal__Overlay--before-close{
+    transform: scale(0);
+    /* transform: translateY(-150%); */
+}
+
+button:focus {
+    outline: 0;
+    outline: 0;
+}
+
+.heNITx {
+    font-family: Inter,system-ui;
+    min-height: 100vh;
+    --tw-text-opacity: 1;
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+    overflow: hidden;
+}
+
+.koyKDD {
+    --tw-bg-opacity: 1;
+    background-color: rgb(40, 48, 80) !important;
+}
+
+.bEXpsg {
+    color: black !important;
+}
+
+.kwcKPM {
+    width: 100%;
+    padding-top: 4rem !important;
+    max-width: none;
+}
+
+.gDtMhp {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+.gnaVbN {
+    --tw-bg-opacity: 1;
+    background-color: rgb(34, 52, 124) !important;
+    }
+
+    .eJTBiC {
+        text-decoration: none;
+    }
+
+@media (min-width: 1024px){
+
+    .jNsEIM {
+        padding-top: 2rem !important;
+        padding-bottom: 4rem !important;
+    }
+
+    .jfbnsK {
+        justify-content: center !important;
+    }
+    .gimPoE {
+        padding-top: 1rem !important;
+        padding-bottom: 3rem !important;
+    }
+    
+    .support {
+        padding-top: 4rem !important;
+        text-align: center;
+        color: rgb(179, 181, 182);
+    }
+
+    .text-white {
+        --tw-text-opacity: 100;
+        color: rgba(255, 255, 255, var(--tw-text-opacity));
+    }
+    .dMGucj {
+        font-size: 5rem !important;
+    }
+    
+    .eIOVyo {
+        justify-content: center !important;
+    }
+    }
+
+    
+    
